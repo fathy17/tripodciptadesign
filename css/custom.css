@@ -1,0 +1,92 @@
+body {
+  color: var(--gray-dark) !important;
+}
+
+section {
+  color: white !important;
+  background-color: rgb(53, 53, 53) !important;
+}
+
+.text-muted {
+  color: grey !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: var(--red) !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--red) !important;
+  border-color: var(--red) !important;
+}
+
+.timeline > li .timeline-image {
+  background-color: var(--red) !important;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  background: rgba(77, 5, 5, 0.623) !important;
+}
+
+.portfolio-caption {
+  color: var(--dark);
+}
+
+.footer {
+  background-color: rgb(53, 53, 53);
+}
+
+.masthead-subheading {
+  font-family: "Montserrat" !important;
+  font-style: normal !important;
+}
+
+.portfolio-link .img-fluid {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.team-member img {
+  object-fit: cover;
+}
+
+.hero-image {
+  position: relative;
+  height: 100vh;
+}
+
+.hero-image .carousel-inner {
+  height: 100vh;
+}
+
+.carousel-item .homepage {
+  object-fit: cover;
+  height: 100vh;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  opacity: 50%;
+}
+
+header.masthead {
+  padding: 0;
+}
